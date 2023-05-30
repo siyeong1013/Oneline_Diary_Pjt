@@ -41,7 +41,7 @@ const addDiary = (txt) => {
 
 }
 
-const searchDiary = () => {
+const searchDiaries = () => {
     console.log('searchDiary() called!');
 
     let diaryArr = diaryDB.get(signInedMemberID);

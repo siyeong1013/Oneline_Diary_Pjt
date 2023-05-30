@@ -15,7 +15,7 @@ const initViews = () => {
     signUpWrap = document.querySelector('div.sign_up_wrap');
     signInWrap = document.querySelector('div.sign_in_wrap');
     writeWrap = document.querySelector('div.write_wrap');
-    listWrap = document.querySelector('div.list_Wrap');
+    listWrap = document.querySelector('div.list_wrap');
 
 }
 
