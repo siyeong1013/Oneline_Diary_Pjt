@@ -12,3 +12,11 @@ const getCurrentDataTime = () => {
 
     return `[${year}/${month}/${date}/${days[day]}] `;
 }
+
+const consoleFlag = false;
+if(!consoleFlag) {
+    console = {};
+    console.log = function(){};
+    console.warn = function(){};
+    console.error = function(){};
+}
